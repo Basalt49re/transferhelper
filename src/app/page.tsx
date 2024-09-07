@@ -30,12 +30,13 @@ export default async function HomePage() {
           </Label>
           <CollegePicker options={options}/>
         </p>
-        <aside className="text-center">
-          <Link href="https://studykit.app" className="hover:underline text-sm opacity-75" target="_blank">
-          🦊 Need Free Study Tools for College? Check out StudyKit! (also made by me)
-          </Link>
         </aside>
-      </aside>
-    </main>
+      </main>
+      <footer className="w-full text-center mt-8">
+        <Link href="https://studykit.app" className="hover:underline text-sm opacity-75" target="_blank">
+          🦊 Want to see more educational tools from us? Check out StudyKit!
+        </Link>
+      </footer>
+    </div>
   );
 }
