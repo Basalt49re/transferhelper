@@ -350,11 +350,11 @@ export function PlanInner({ transferColleges, homeID, communityColleges }: Props
                                                         Create Appointment with College Counselor
                                                     </Button>
 
-                                                    <Button variant="link" Icon={StarIcon}>
+                                                    {/* <Button variant="link" Icon={StarIcon}>
                                                         <a href="https://studykit.app" target="_blank">
                                                             Free Study Tools (also made by me)
                                                         </a>
-                                                    </Button>
+                                                    </Button> */}
 
                                                     <Button className="w-full" variant="default" Icon={Download} onClick={(e) => {
                                                         const header = ["Course Code", "Course Title", "Units", "Required By"]

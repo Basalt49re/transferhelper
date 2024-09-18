@@ -32,9 +32,9 @@ export default async function HomePage() {
         </p>
         </aside>
       <footer className="w-full text-center mt-8">
-    <Link href="https://studykit.app" className="hover:underline text-sm opacity-75" target="_blank">
+    {/* <Link href="https://studykit.app" className="hover:underline text-sm opacity-75" target="_blank">
       🦊 Want to see more educational tools from us? Check out StudyKit!
-    </Link>
+    </Link> */}
   </footer>
 </main>
   );
